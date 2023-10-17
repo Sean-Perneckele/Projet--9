@@ -27,7 +27,7 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo instagra"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -35,6 +35,15 @@
 <section id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<button id="carousel-prev" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" tabindex="0">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		
+		<button id="carousel-next" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" tabindex="0">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -51,14 +60,9 @@
 				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Homme et femme en robe de marier s'embrasant">
 			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			
-		</button>
+	
+
+	
 	</div>
 </section>
 <section id="about" itemscope itemtype="https://schema.org/Person">
@@ -97,9 +101,6 @@
 	</figure>
   </section>
 <section id="services">
-	<h2 class="title">Mes services</h2>
-	<div class="container">
-		
 		<section id="services" itemscope itemtype="https://schema.org/Service">
 			<h2 class="title" itemprop="name">Mes services</h2>
 			<div class="container" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
@@ -176,9 +177,9 @@
 <footer itemscope itemtype="https://schema.org/Organization">
     <h2 itemprop="name">Mes informations</h2>
     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-        <p itemprop="streetAddress">68 avenue Alsace-Lorraine</p>
-        <p itemprop="addressLocality">Bordeaux</p>
-        <p itemprop="postalCode">33200</p>
+        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+        <span itemprop="addressLocality">Bordeaux</span>
+        <span itemprop="postalCode">33200</span>
     </div>
     <div>
         <p>Téléphone : <span itemprop="telephone">05 56 67 78 89</span></p>

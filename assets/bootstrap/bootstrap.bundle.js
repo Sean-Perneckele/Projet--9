@@ -6810,3 +6810,19 @@
 
 }));
 //# sourceMappingURL=bootstrap.bundle.js.map
+
+document.getElementById('carousel-prev').addEventListener('keydown', function(event) {
+  if (event.code === 'Enter') {
+      event.preventDefault();
+      document.getElementById('carousel-prev').click();
+      
+  }
+});
+
+document.getElementById('carousel-next').addEventListener('keydown', function(event) {
+  if (event.code === 'Enter') {
+      event.preventDefault();
+      document.getElementById('carousel-next').click();
+  }
+});
+
