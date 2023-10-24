@@ -1,5 +1,5 @@
-<!DOCTYPE html fr>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -8,7 +8,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
@@ -17,6 +17,21 @@
 	<meta name="description" content="Nina Carducci est une photographe de Bordeaux 
 	qui se déplace sur paris et sa région. Elle propose un service de shooting photo,
 	retouches photos et fait même des album. " />
+
+    <meta property="og:title" content="Shooting photo Nina Carducci. Photographe de Bordeaux et Paris">
+    <meta property="og:description" content="Nina Carducci est une photographe de Bordeaux 
+	qui se déplace sur paris et sa région. Elle propose un service de shooting photo,
+	retouches photos et fait même des album.">
+    <meta property="og:url" content="https://sean-perneckele.github.io/Projet--9/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:site" content="Shooting photo Nina Carducci. Photographe de Bordeaux et Paris">
+    <meta name="twitter:title" content="Shooting photo Nina Carducci. Photographe de Bordeaux et Paris">
+    <meta name="twitter:description" content="Nina Carducci est une photographe de Bordeaux 
+	qui se déplace sur paris et sa région. Elle propose un service de shooting photo,
+	retouches photos et fait même des album.">
+
+	
 </head>
 <body>
 	<header class="top-header" itemscope itemtype="https://schema.org/CreativeWork  ">
@@ -67,7 +82,7 @@
 </section>
 <section id="about" itemscope itemtype="https://schema.org/Person">
     <div class="picture left">
-        <img itemprop="image" src="./assets/images/nina.png" alt="Femme au cheveux boucler portant un t-shirt manche courte a raillure bleu et blanc par-dessous une salopette bleue">
+        <img itemprop="image" src="./assets/images/nina.png" alt="Femme portant un t-shirt manche courte a raillure bleu et blanc avec une salopette">
     </div>
     <div id="about-me">
         <h2 class="about-me__title" itemprop="name">Photographe Nina Carducci</h2>
@@ -84,9 +99,9 @@
 			<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Homme d'affaire croisant les bras"/>
 			<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Deux femmes riant dans un bureau "/>
 			<img itemprop="image" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt=" Une paire de mains se touchant des doigts"/>
-			<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Vissage d'un homme noir avec une barbe fournie, ayant des cheveux crépu court, et pourtant un colier blanc"/>
+			<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Vissage d'un homme noir avec une barbe, ayant des cheveux crépu pourtant un colier blanc"/>
 			<img itemprop="image" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Homme et femme en tenu de marier sur un plage devant un palmier exotique"/>
-			<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="photo d'une femme portant un t-shirt noir manche longue, ayant des cheveux long brun, portant des lunettes un colier et un bracelet."/>
+			<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="Femme avec un t-shirt noir ayant des cheveux long portant des lunettes"/>
 			<img itemprop="image" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Chanteur tendant la mains gauche en fessant quatre de la main "/>
 			<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Une femme riant devant un ordinateur portable"/>
 		</div>
@@ -102,7 +117,7 @@
   </section>
 <section id="services">
 		<section id="services" itemscope itemtype="https://schema.org/Service">
-			<h2 class="title" itemprop="name">Mes services</h2>
+			<h2 class="title">Mes services</h2>
 			<div class="container" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
 				<div class="service" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
 					<div class="service__description">
@@ -175,15 +190,18 @@
 </section>
 </main>
 <footer itemscope itemtype="https://schema.org/Organization">
-    <h2 itemprop="name">Mes informations</h2>
-    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <h2>Mes informations</h2>
+	<div>
+    <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+		<Span>Adresse : </Span>
         <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
         <span itemprop="addressLocality">Bordeaux</span>
         <span itemprop="postalCode">33200</span>
-    </div>
-    <div>
+	</address>
+	
+    
         <p>Téléphone : <span itemprop="telephone">05 56 67 78 89</span></p>
-		<p itemprop="openingHours" content="Mo-Fr 10:00-19:00">Disponibilité : Du lundi au vendredi, de 10h00 à 19h00</p>
+		<p>Disponibilité : Du lundi au vendredi, de 10h00 à 19h00</p>
     </div>
 </footer>
 </body>
